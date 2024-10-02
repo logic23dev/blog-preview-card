@@ -12,16 +12,18 @@
 
 @font-face {
   font-family: 'Figtree';
-  src: url('/fonts/Figtree-VariableFont_wght.ttf') format('truetype-variations');
-  src: url('/fonts/Figtree-Medium.ttf') format('truetype');
+  src: url('../fonts/Figtree-VariableFont_wght.ttf')
+    format('truetype-variations');
+  src: url('../fonts/Figtree-Medium.ttf') format('truetype');
   font-display: swap;
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Figtree';
-  src: url('/fonts/Figtree-VariableFont_wght.ttf') format('truetype-variations');
-  src: url('/fonts/Figtree-ExtraBold.ttf') format('truetype');
+  src: url('../fonts/Figtree-VariableFont_wght.ttf')
+    format('truetype-variations');
+  src: url('../fonts/Figtree-ExtraBold.ttf') format('truetype');
   font-display: swap;
   font-weight: 800;
 }
