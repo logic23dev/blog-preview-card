@@ -54,7 +54,6 @@ video,
 canvas,
 svg {
   max-width: 100%;
-  height: auto;
   display: block;
 }
 
@@ -80,7 +79,12 @@ body {
 }
 
 .card-illustration {
+  height: 12.5rem;
+}
+
+.card-illustration img {
   border-radius: 0.625rem;
+  object-fit: cover;
 }
 
 .card-section {
