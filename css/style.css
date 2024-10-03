@@ -102,15 +102,19 @@ body {
   font-size: 0.75rem;
 }
 
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--clr-yellow);
+}
+
 .card-heading {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
   transition: 0.2s;
-}
-
-.card-heading:hover {
-  color: var(--clr-yellow);
-  cursor: pointer;
 }
 
 .card-text {
